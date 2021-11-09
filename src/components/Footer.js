@@ -1,4 +1,4 @@
-import React from 'react';
+import './Footer.css';
 
 export default function Footer() {
   return (
@@ -19,6 +19,15 @@ export default function Footer() {
           rel="noreferrer"
         >
           <i class="fa fa-github"></i>GitHub
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.facebook.com/profile.php?id=1522278848"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <i class="fa fa-facebook"></i>GitHub
         </a>
       </li>
     </ul>
