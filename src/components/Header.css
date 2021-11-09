@@ -1,4 +1,5 @@
 .header {
   display: inline-flex;
   /* text-align: start; */
+  height: 5rem;
 }
