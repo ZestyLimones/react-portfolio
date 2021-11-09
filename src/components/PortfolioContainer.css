@@ -1,3 +1,14 @@
 * {
   font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+.main {
+  background-color: rgb(17, 229, 236);
+  /* background-image: linear-gradient(
+    to right,
+    rgb(92, 34, 126),
+    rgb(17, 229, 236)
+  ); */
+  color: black;
 }

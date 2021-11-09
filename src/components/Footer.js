@@ -27,7 +27,7 @@ export default function Footer() {
           target="_blank"
           rel="noreferrer"
         >
-          <i class="fa fa-facebook"></i>GitHub
+          <i class="fa fa-facebook"></i>Facebook
         </a>
       </li>
     </ul>
