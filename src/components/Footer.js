@@ -2,14 +2,14 @@ import './Footer.css';
 
 export default function Footer() {
   return (
-    <ul class="contact-links">
+    <ul className="contact-links">
       <li>
         <a
           href="https://www.linkedin.com/in/micheal-limones"
           target="_blank"
           rel="noreferrer"
         >
-          <i class="fa fa-linkedin-square"></i>LinkedIn
+          <i className="fa fa-linkedin-square"></i>LinkedIn
         </a>
       </li>
       <li>
@@ -18,7 +18,7 @@ export default function Footer() {
           target="_blank"
           rel="noreferrer"
         >
-          <i class="fa fa-github"></i>GitHub
+          <i className="fa fa-github"></i>GitHub
         </a>
       </li>
       <li>
@@ -27,7 +27,7 @@ export default function Footer() {
           target="_blank"
           rel="noreferrer"
         >
-          <i class="fa fa-facebook"></i>Facebook
+          <i className="fa fa-facebook"></i>Facebook
         </a>
       </li>
     </ul>

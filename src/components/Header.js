@@ -1,9 +1,10 @@
 import React from 'react';
 import NavBar from './NavBar';
+import './Header.css';
 
 const Header = (props) => {
   return (
-    <div>
+    <div className="header">
       <h1>Limones Resume</h1>
       <NavBar
         currentPage={props.currentPage}

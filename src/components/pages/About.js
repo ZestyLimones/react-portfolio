@@ -1,11 +1,13 @@
 import React from 'react';
+import profilePic from '../assets/images/me-pic.jpeg'
+import "./About.css"
 
 export default function About() {
   return (
     <div>
       <h2>About Me</h2>
-      <img src="" alt="" />
-      <div class="card-content">
+      <img src={profilePic} alt="Micheal Limones" className='profile-pic'/>
+      <div className="card-content">
         <p>
           <span>Full Stack web developer</span> skilled in HTML5, CSS3,
           JavaScript, jQuary, APIs, Node, and GitHub. Thrives on the challenge
