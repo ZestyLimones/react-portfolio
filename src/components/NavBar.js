@@ -12,6 +12,9 @@ function NavBar({ currentPage, handlePageChange}) {
             <li className="nav-item">
                 <a href="#contact" onClick={() => handlePageChange('Contact')} className={currentPage === "Contact" ? 'nav-link active' : 'nav-link'}>Contact Me</a>
             </li>
+            <li className="nav-item">
+                <a href="https://drive.google.com/file/d/1RqQuLwDXdIFGJQak1mSKnHwn_4hwkzQn/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
+            </li>
         </ul>
     )
 }
