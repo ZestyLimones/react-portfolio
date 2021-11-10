@@ -5,12 +5,12 @@
 
 .main {
   background-color: rgb(17, 229, 236);
-  /* background-image: linear-gradient(
+  background-image: linear-gradient(
     to right,
     rgb(92, 34, 126),
     rgb(17, 229, 236)
-  ); */
-  color: black;
+  );
+  color: white;
   /* display: flex; */
 }
 
@@ -50,6 +50,7 @@ span {
 }
 
 .card {
+  display: flex;
   padding: 20px;
   border-radius: 15%;
   margin: 5px;
