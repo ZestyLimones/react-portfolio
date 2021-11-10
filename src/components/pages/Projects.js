@@ -1,4 +1,5 @@
 import React from 'react';
+import './Projects.css'
 import ouroborosScreenshot from '../assets/images/ouroboros-screnshot.jpg';
 import employeeTrackerScreenshot from '../assets/images/employee-tracker-screenshot.jpg';
 import nationalParksScreenshot from '../assets/images/national-state-parks-screenshot.jpg';
@@ -6,6 +7,22 @@ import noteTakerScreenshot from '../assets/images/note-taker-screenshot.jpg'
 
 
 export default function Projects() {
+
+    const triggers = document.getElementsByClassName('trigger');
+const triggerArray = Array.from(triggers).entries();
+const modals = document.getElementsByClassName('modal');
+const closeButtons = document.getElementsByClassName('close-button');
+
+for (let [index, trigger] of triggerArray) {
+  const toggleModal = () => {
+    modals[index].classList.toggle('show-modal');
+  };
+  trigger.addEventListener('click', toggleModal);
+  closeButtons[index].addEventListener('click', toggleModal);
+}
+
+
+
     return (
         <div>
             <h2>Projects</h2>

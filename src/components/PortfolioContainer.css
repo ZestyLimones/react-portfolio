@@ -11,7 +11,6 @@
     rgb(17, 229, 236)
   ); */
   color: black;
-  height: 100vh;
   /* display: flex; */
 }
 
@@ -38,6 +37,7 @@ p {
   font-size: 25px;
   margin-top: 10px;
 }
+
 span {
   font-size: 28px;
   font-weight: bolder;

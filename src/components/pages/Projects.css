@@ -1,0 +1,13 @@
+.card-title {
+  margin: 10px;
+}
+
+.card-links button {
+  margin: 10px;
+}
+
+.card-image {
+  height: 400px;
+  width: 400px;
+  border-radius: 15%;
+}
