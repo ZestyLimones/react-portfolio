@@ -3,3 +3,8 @@
   /* text-align: start; */
   height: 5rem;
 }
+
+h1 {
+  font-size: 55px;
+  text-shadow: 5px 5px 8px rgb(233, 40, 223);
+}

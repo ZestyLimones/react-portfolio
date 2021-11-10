@@ -1,5 +1,8 @@
 .profile-pic {
+  float: right;
+  border-radius: 50%;
+  margin: 25px;
   height: 250px;
   width: 250px;
-  border-radius: 50%;
+  box-shadow: 10px 10px 8px rgba(40, 75, 233, 0.466);
 }
