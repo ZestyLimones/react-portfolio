@@ -1,18 +1,36 @@
 .contact-form {
-  /* height: 500px; */
-  width: 50vw;
-  background-color: red;
-  border: 2px solid blue;
-  display: flex;
-  /* align-items: center; */
-  justify-content: center;
+  /* width: 50vw; */
+  display: inline-block;
+}
+label {
+  display: block;
+  /* margin: 25px; */
+  font-size: 25px;
 }
 
-/* .card {
-  padding: 20px;
-  border-radius: 15%;
-  margin: 5px;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  box-shadow: 10px 10px 8px rgba(40, 233, 114, 0.466);
-} */
+input,
+textarea {
+  margin: 15px;
+  /* width: 650px; */
+}
+
+.text-box {
+  width: 600px;
+  height: 25px;
+}
+
+.submit {
+  font-size: 30px;
+  padding: 4px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(81, 32, 255);
+  text-shadow: 3px 3px 8px rgb(32, 120, 252);
+  box-shadow: 3px 3px 10px rgb(62, 162, 255);
+  transition: all 0.2s ease-in-out;
+}
+
+.submit:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
