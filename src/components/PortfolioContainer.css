@@ -65,3 +65,86 @@ a {
   color: white;
   text-shadow: 2px 5px 8px rgb(233, 40, 88);
 }
+
+@media screen and (max-width: 1000px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 30px;
+    width: 200px;
+  }
+
+  .main {
+    flex-direction: column;
+  }
+  .nav {
+    height: 100px;
+    align-items: flex-end;
+  }
+  .nav-bar {
+    position: relative;
+    display: flex;
+    flex: auto;
+    justify-content: space-around;
+  }
+
+  .main {
+    margin-top: 25px;
+    display: flex;
+  }
+
+  .modal-content {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  span {
+    font-size: 23px;
+  }
+
+  .nav-item {
+    font-size: 20px;
+  }
+
+  .profile-pic {
+    float: none;
+  }
+
+  .projects {
+    margin: 10px auto;
+    display: inline-flex;
+    flex-wrap: wrap;
+    height: 550px;
+    width: 100%;
+  }
+
+  .card {
+    padding: 5px;
+    border-radius: 10%;
+    margin: 15px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .card-content {
+    padding: 15px;
+  }
+
+  .project-content {
+    padding: 10px;
+  }
+
+  .card-image {
+    height: 280px;
+    width: 280px;
+    border-radius: 15%;
+  }
+}
