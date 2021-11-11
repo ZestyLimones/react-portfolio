@@ -1,8 +1,16 @@
+.projects {
+  margin: 35px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  height: 850px;
+  width: 800px;
+}
+
 .card-title {
   margin: 10px;
 }
 
-.card-links button {
+.btn {
   margin: 10px;
 }
 
@@ -12,7 +20,12 @@
   border-radius: 15%;
 }
 
-button {
+.card-links {
+  display: inline-flex;
+}
+
+.btn {
+  font-size: 20px;
   padding: 4px;
   border-radius: 5px;
   color: white;
@@ -22,12 +35,7 @@ button {
   transition: all 0.2s ease-in-out;
 }
 
-button:hover {
+.btn:hover {
   transform: scale(1.2);
   cursor: pointer;
-}
-
-a {
-  color: white;
-  text-shadow: 2px 5px 8px rgb(233, 40, 88);
 }

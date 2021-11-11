@@ -1,22 +1,22 @@
 .nav {
-  /* position: relative;
-  display: flex; */
-  /* float: right; */
-  /* flex: 0 0 15%; */
-  /* justify-content: center; */
+  position: absolute;
+  right: 0;
+  margin-top: 15px;
 }
 
-.nav ul {
-  position: fixed;
+.nav-bar {
+  display: flex;
+  justify-content: right;
   align-items: center;
 }
 
-.nav ul li {
+.nav-item {
+  display: flex;
   font-size: 30px;
-  margin-top: 20px;
+  margin-right: 30px;
   transition: all 0.2s ease-in-out;
 }
 
-.nav ul li:hover {
+.nav-item:hover {
   transform: scale(1.3);
 }

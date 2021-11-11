@@ -37,14 +37,14 @@ for (let [index, trigger] of triggerArray) {
                             <p><span>test user email:</span> testuser@fake-email.com</p>
                             <p><span>test user password:</span> test1234</p>
                             <div className="card-links">
-                                <p className="project-repo-link"><a href="https://github.com/ZestyLimones/Ouroboros" target='_blank' rel="noreferrer" ><button>View Code</button></a></p>
-                                <p class="project-depoyed-link"><a href="https://ouroboros-ml-jf-ni.herokuapp.com/" target='_blank' rel="noreferrer" ><button>View Project</button></a></p>
+                                <p className="project-repo-link"><a href="https://github.com/ZestyLimones/Ouroboros" target='_blank' rel="noreferrer" ><button className='btn'>View Code</button></a></p>
+                                <p class="project-depoyed-link"><a href="https://ouroboros-ml-jf-ni.herokuapp.com/" target='_blank' rel="noreferrer" ><button className='btn'>View Project</button></a></p>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div className="project-2 project" >
+                <div className="project-2 projects" >
                     <div className="card">
                         <h3 className="card-title">Natonal Parks Day Trip Planner</h3>
                         <img src={nationalParksScreenshot} alt="Screenshot of National Day Trip Planner" className="card-image" />

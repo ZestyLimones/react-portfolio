@@ -50,7 +50,6 @@ span {
 }
 
 .card {
-  display: flex;
   padding: 20px;
   border-radius: 15%;
   margin: 5px;
@@ -61,4 +60,9 @@ span {
 
 .card-content {
   padding: 150px;
+}
+
+a {
+  color: white;
+  text-shadow: 2px 5px 8px rgb(233, 40, 88);
 }
