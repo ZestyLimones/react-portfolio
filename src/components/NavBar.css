@@ -1,3 +1,22 @@
 .nav {
-  float: right;
+  /* position: relative;
+  display: flex; */
+  /* float: right; */
+  /* flex: 0 0 15%; */
+  /* justify-content: center; */
+}
+
+.nav ul {
+  position: fixed;
+  align-items: center;
+}
+
+.nav ul li {
+  font-size: 30px;
+  margin-top: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav ul li:hover {
+  transform: scale(1.3);
 }

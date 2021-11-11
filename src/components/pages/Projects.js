@@ -32,21 +32,13 @@ for (let [index, trigger] of triggerArray) {
                         <h3 className="card-title">Ouroboros</h3>
                         <img src={ouroborosScreenshot} alt="Screenshot of day planner app." className="card-image" />
                         <div className="project-content">
-                            <p className="card-text">Wellness application designed to improve a user mental health through loop reward system.</p>
-                            <p><button className="trigger modal-btn">View Details</button></p>
-                            <div className="modal">
-                                <div className="modal-content">
-                                    <span className="close-button">X</span>
-                                    <h3 className="card-title">Ouroboros</h3>
-                                    <p className="card-text">A mental health app to track daily progress creating intrinsic goals for our user. Our app sets up a loop reward system creating daily patterns.</p>
-                                    <p><span>Tech used:</span> JavaSrcipt, CSS, handlebars, Node.js, Express, MySQL, AWS</p>
-                                    <p><span>test user email:</span> testuser@fake-email.com</p>
-                                    <p><span>test user password:</span> test1234</p>
-                                    <div className="card-links">
-                                        <p className="project-repo-link"><a href="https://github.com/ZestyLimones/Ouroboros" target='_blank' rel="noreferrer" ><button>View Code</button></a></p>
-                                        <p class="project-depoyed-link"><a href="https://ouroboros-ml-jf-ni.herokuapp.com/" target='_blank' rel="noreferrer" ><button>View Project</button></a></p>
-                                    </div>
-                                </div>
+                            <p className="card-text">A mental health app to track daily progress creating intrinsic goals for our user. Our app sets up a loop reward system creating daily patterns.</p>
+                            <p><span>Tech used:</span> JavaSrcipt, CSS, handlebars, Node.js, Express, MySQL, AWS</p>
+                            <p><span>test user email:</span> testuser@fake-email.com</p>
+                            <p><span>test user password:</span> test1234</p>
+                            <div className="card-links">
+                                <p className="project-repo-link"><a href="https://github.com/ZestyLimones/Ouroboros" target='_blank' rel="noreferrer" ><button>View Code</button></a></p>
+                                <p class="project-depoyed-link"><a href="https://ouroboros-ml-jf-ni.herokuapp.com/" target='_blank' rel="noreferrer" ><button>View Project</button></a></p>
                             </div>
                         </div>
                     </div>
@@ -57,19 +49,11 @@ for (let [index, trigger] of triggerArray) {
                         <h3 className="card-title">Natonal Parks Day Trip Planner</h3>
                         <img src={nationalParksScreenshot} alt="Screenshot of National Day Trip Planner" className="card-image" />
                         <div className="project-content">
-                            <p className="card-text">Application that allows a user to search for National State Parks within a specific state.</p>
-                            <p><button className="trigger modal-btn">View Details</button></p>
-                            <div className="modal">
-                                <div className="modal-content">
-                                    <span className="close-button">X</span>
-                                    <h3 className="card-title">Natonal Parks Day Trip Planner</h3>
-                                    <p className="card-text">Plan a trip to a State Park within a specific state and be presented with 3 random activities available  in that park, a five day forcast, and map of the location.</p>
-                                    <p><span>Tech used:</span> HTML5, CSS3, JavaScript, jQuery, Bulma, NPS API, OpenWeather API, Google API</p>
-                                    <div className="card-links">
-                                        <p className="project-repo-link"><a href="https://github.com/michlimones/National-Parks-Day-Trip-Planner" target='_blank' rel="noreferrer" ><button>View Code</button></a></p>
-                                        <p className="project-depoyed-link"><a href="https://trivera777.github.io/National-Parks-Day-Trip-Planner/" target='_blank' rel="noreferrer" ><button>View Project</button></a></p>
-                                    </div>
-                                </div>
+                            <p className="card-text">Plan a trip to a State Park within a specific state and be presented with 3 random activities available  in that park, a five day forcast, and map of the location.</p>
+                            <p><span>Tech used:</span> HTML5, CSS3, JavaScript, jQuery, Bulma, NPS API, OpenWeather API, Google API</p>
+                            <div className="card-links">
+                                <p className="project-repo-link"><a href="https://github.com/michlimones/National-Parks-Day-Trip-Planner" target='_blank' rel="noreferrer" ><button>View Code</button></a></p>
+                                <p className="project-depoyed-link"><a href="https://trivera777.github.io/National-Parks-Day-Trip-Planner/" target='_blank' rel="noreferrer" ><button>View Project</button></a></p>
                             </div>
                         </div>
                     </div>
@@ -80,21 +64,12 @@ for (let [index, trigger] of triggerArray) {
                         <h3 className="card-title">Note Taker</h3>
                         <img src={noteTakerScreenshot} alt="Screenshot of Note Taker App" className="card-image" />
                         <div className="project-content">
-                            <p className="card-text">Note taking application that saves user's input to reference later and make adjustments as needed.</p>
-                            <p><button className="trigger modal-btn">View Details</button></p>
-                            <div className="modal">
-                                <div className="modal-content">
-                                    <span className="close-button">X</span>
-                                    <h3 className="card-title">Note Taker</h3>
-                                    <p className="card-text">This application allows a user to take notes they can reference later. When the user first visits the site they will be promted to start taking notes. Once on the following screen, the user will add a title for the notes then they can start adding content. Once the user saves the note, it will appear to the left so the user may reference the note later.</p>
-                                    <p><span>Tech used:</span> HTML5, CSS3, JavaScript, Bootstrap, Node.js, Express, Heroku</p>
-                                    <div className="card-links">
-                                        <p className="project-repo-link"><a href="https://github.com/ZestyLimones/Note_Taker" target='_blank' rel="noreferrer" ><button>View Code</button></a></p>
-                                        <p className="project-depoyed-link"><a href="https://fast-shelf-21917.herokuapp.com/" target='_blank' rel="noreferrer" ><button>View Project</button></a></p>
-                                    </div>
-                                </div>
+                            <p className="card-text">This application allows a user to take notes they can reference later. When the user first visits the site they will be promted to start taking notes. Once on the following screen, the user will add a title for the notes then they can start adding content. Once the user saves the note, it will appear to the left so the user may reference the note later.</p>
+                            <p><span>Tech used:</span> HTML5, CSS3, JavaScript, Bootstrap, Node.js, Express, Heroku</p>
+                            <div className="card-links">
+                                <p className="project-repo-link"><a href="https://github.com/ZestyLimones/Note_Taker" target='_blank' rel="noreferrer" ><button>View Code</button></a></p>
+                                <p className="project-depoyed-link"><a href="https://fast-shelf-21917.herokuapp.com/" target='_blank' rel="noreferrer" ><button>View Project</button></a></p>
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -104,21 +79,12 @@ for (let [index, trigger] of triggerArray) {
                         <h3 className="card-title">Employee Tracker</h3>
                         <img src={employeeTrackerScreenshot} alt="Screenshot of code quiz game." className="card-image" />
                         <div className="project-content">
-                            <p className="card-text">Application to track and add departments, roles, and employees within an organization.</p>
-                            <p><button className="trigger modal-btn">View Details</button></p>
-                            <div className="modal">
-                                <div className="modal-content">
-                                    <span className="close-button">X</span>
-                                    <h3 className="card-title">Employee Tracker</h3>
-                                    <p className="card-text">This application allows a business owner to view and manage the departments, roles, and employees within their company so they can organize and plan their business. Business owner is able to view and add departments, roles, and employees.</p>
-                                    <p><span>Tech used:</span> JavaScript, Node.js, Express, MySql, Axios</p>
-                                    <p><span>No deployed site. All back-end</span></p>
-                                    <div className="card-links">
-                                        <p className="project-repo-link"><a href="https://github.com/ZestyLimones/Employee-Tracker" target='_blank' rel="noreferrer" ><button>View Code</button></a></p>
-                                    </div>
-                                </div>
+                            <p className="card-text">This application allows a business owner to view and manage the departments, roles, and employees within their company so they can organize and plan their business. Business owner is able to view and add departments, roles, and employees.</p>
+                            <p><span>Tech used:</span> JavaScript, Node.js, Express, MySql, Axios</p>
+                            <p><span>No deployed site. All back-end</span></p>
+                            <div className="card-links">
+                                <p className="project-repo-link"><a href="https://github.com/ZestyLimones/Employee-Tracker" target='_blank' rel="noreferrer" ><button>View Code</button></a></p>
                             </div>
-
                         </div>
                     </div>
                 </div>
