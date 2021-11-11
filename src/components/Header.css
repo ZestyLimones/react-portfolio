@@ -1,9 +1,10 @@
 .header {
-  display: inline-flex;
+  /* display: inline-flex; */
   height: 5rem;
 }
 
 h1 {
+  display: inline-flex;
   font-size: 55px;
   text-shadow: 5px 5px 8px rgb(233, 40, 223);
 }

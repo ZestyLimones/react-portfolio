@@ -1,6 +1,8 @@
 * {
   font-family: 'Quicksand', sans-serif;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .main {
@@ -11,6 +13,7 @@
     rgb(17, 229, 236)
   );
   color: white;
+  padding: 15px;
 }
 
 .portfolio-content {
@@ -80,27 +83,28 @@ a {
     flex-direction: column;
   }
   .nav {
+    position: relative;
     height: 100px;
     align-items: flex-end;
+    margin-bottom: 15px;
   }
   .nav-bar {
-    position: relative;
     display: flex;
     flex: auto;
     justify-content: space-around;
   }
 
-  .main {
-    margin-top: 25px;
+  .portfolio-container {
+    margin-top: 35px;
     display: flex;
-  }
-
-  .modal-content {
-    width: 500px;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 660px) {
+  .portfolio-container {
+    margin-top: 100px;
+    display: flex;
+  }
   p {
     font-size: 20px;
     margin-top: 10px;
@@ -111,7 +115,7 @@ a {
   }
 
   .nav-item {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .profile-pic {
@@ -122,7 +126,7 @@ a {
     margin: 10px auto;
     display: inline-flex;
     flex-wrap: wrap;
-    height: 550px;
+    height: 700px;
     width: 100%;
   }
 
@@ -146,5 +150,17 @@ a {
     height: 280px;
     width: 280px;
     border-radius: 15%;
+  }
+
+  .text-box {
+    width: 300px;
+  }
+
+  textarea {
+    width: 300px;
+  }
+
+  .btn {
+    font-size: 15px;
   }
 }
