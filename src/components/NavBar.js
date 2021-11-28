@@ -9,18 +9,45 @@ import './NavBar.css';
 //   console.info('You clicked a breadcrumb.');
 // }
 
-function NavBar() {
-  function handleClick(event) {
-    event.preventDefault();
-    console.info('You clicked a breadcrumb.');
-  }
+function NavBar({ currentPage, handlePageChange }) {
+  // function handleClick(event) {
+  //   event.preventDefault();
+  //   console.info('You clicked a breadcrumb.');
+  // }
 
   return (
-    <div className="nav" onClick={handleClick}>
+    <div className="nav">
       <Breadcrumbs aria-label="breadcrump">
-        <Link href="#about">About Me</Link>
-        <Link href="#projects">Projects</Link>
-        <Link href="#contact">Contact Me</Link>
+        <Link
+          href="#about"
+          onClick={() => handlePageChange('About')}
+          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+        >
+          About Me
+        </Link>
+        <Link
+          href="#projects"
+          onClick={() => handlePageChange('Projects')}
+          className={
+            currentPage === 'Projects' ? 'nav-link active' : 'nav-link'
+          }
+        >
+          Projects
+        </Link>
+        <Link
+          href="#contact"
+          onClick={() => handlePageChange('Contact')}
+          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+        >
+          Contact Me
+        </Link>
+        <Link
+          href="https://drive.google.com/file/d/1RqQuLwDXdIFGJQak1mSKnHwn_4hwkzQn/view?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Resume
+        </Link>
       </Breadcrumbs>
       {/* <ul className="nav-bar">
         <li className="nav-item">
