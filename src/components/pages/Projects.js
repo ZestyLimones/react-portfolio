@@ -51,7 +51,7 @@ export default function Projects() {
                     <button className="btn">View Code</button>
                   </a>
                 </p>
-                <p class="project-depoyed-link">
+                <p className="project-depoyed-link">
                   <a
                     href="https://ouroboros-ml-jf-ni.herokuapp.com/"
                     target="_blank"
