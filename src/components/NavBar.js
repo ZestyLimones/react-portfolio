@@ -8,8 +8,7 @@ function NavBar({ currentPage, handlePageChange }) {
     <div className="nav-bar">
       <Box className="nav-item">
         <Link
-          underline="hover"
-          color="white"
+          color="#ffff"
           href="#about"
           onClick={() => handlePageChange('About')}
           className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
@@ -19,8 +18,7 @@ function NavBar({ currentPage, handlePageChange }) {
       </Box>
       <Box className="nav-item">
         <Link
-          underline="hover"
-          color="white"
+          color="#ffff"
           href="#projects"
           onClick={() => handlePageChange('Projects')}
           className={
@@ -32,8 +30,7 @@ function NavBar({ currentPage, handlePageChange }) {
       </Box>
       <Box className="nav-item">
         <Link
-          underline="hover"
-          color="white"
+          color="#ffff"
           href="#contact"
           onClick={() => handlePageChange('Contact')}
           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
@@ -43,8 +40,8 @@ function NavBar({ currentPage, handlePageChange }) {
       </Box>
       <Box className="nav-item">
         <Link
-          underline="hover"
-          color="white"
+          color="#ffff"
+          fontWeight="strong"
           href="https://drive.google.com/file/d/1RqQuLwDXdIFGJQak1mSKnHwn_4hwkzQn/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
