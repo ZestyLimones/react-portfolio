@@ -1,6 +1,10 @@
 import React from 'react';
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
+import AssignmentIndIcon from '@mui/icons-material/AssignmentInd';
+import AutoStoriesIcon from '@mui/icons-material/AutoStories';
+import EmailIcon from '@mui/icons-material/Email';
+import ArticleIcon from '@mui/icons-material/Article';
 import './NavBar.css';
 
 function NavBar({ currentPage, handlePageChange }) {
@@ -13,6 +17,7 @@ function NavBar({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange('About')}
           className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
         >
+          <AssignmentIndIcon fontSize="inherit" />
           About Me
         </Link>
       </Box>
@@ -25,6 +30,7 @@ function NavBar({ currentPage, handlePageChange }) {
             currentPage === 'Projects' ? 'nav-link active' : 'nav-link'
           }
         >
+          <AutoStoriesIcon fontSize="inherit" />
           Projects
         </Link>
       </Box>
@@ -35,6 +41,7 @@ function NavBar({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange('Contact')}
           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
         >
+          <EmailIcon fontSize="inherit" />
           Contact Me
         </Link>
       </Box>
@@ -46,6 +53,7 @@ function NavBar({ currentPage, handlePageChange }) {
           target="_blank"
           rel="noreferrer"
         >
+          <ArticleIcon fontSize="inherit" />
           Resume
         </Link>
       </Box>
